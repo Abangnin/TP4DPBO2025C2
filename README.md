@@ -96,3 +96,6 @@ Setelah data ditambahkan, tabel akan diperbarui menggunakan MahasiswaTableModel.
   - Panggil metode clearForm(), yang mengosongkan semua input field.
 
 ## Dokumentasi
+![Image](https://github.com/user-attachments/assets/9b8f4e8d-a653-43b3-ac3e-5187ba99be9e)
+
+![Image](https://github.com/user-attachments/assets/9ffe6663-5a33-4f32-8211-a62076a12906)
