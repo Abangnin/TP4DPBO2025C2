@@ -95,6 +95,18 @@ Setelah data ditambahkan, tabel akan diperbarui menggunakan MahasiswaTableModel.
   
   - Panggil metode clearForm(), yang mengosongkan semua input field.
 
+
+#### RANGKUMAN ALUR KERJA
+- Pengguna mengisi form (NIM, Nama, Jenis Kelamin, Angkatan).
+
+- Menekan tombol "Add" → Data masuk ke listMahasiswa → Ditampilkan di tabel.
+
+- Jika ingin menghapus satu data, pilih data lalu tekan tombol "Delete".
+
+- Jika ingin menghapus semua data, tekan tombol "Delete All" → Muncul konfirmasi.
+
+- Jika ingin mengosongkan form input, tekan tombol "Cancel".
+
 ## Dokumentasi
 ![Image](https://github.com/user-attachments/assets/9b8f4e8d-a653-43b3-ac3e-5187ba99be9e)
 
