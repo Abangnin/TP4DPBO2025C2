@@ -28,24 +28,24 @@ Saya Muhammad Naufal Arbanin dengan NIM 2310850 mengerjakan soal Tugas Praktikum
 
 #### Penjelasan Setiap Komponen dan Alurnya
 1. Form Input Mahasiswa
-a. Di dalam class Menu, terdapat input form yang terdiri dari:
+- Di dalam class Menu, terdapat input form yang terdiri dari:
 
-- NIM → JTextField nimField
+- - NIM → JTextField nimField
 
-- Nama → JTextField namaField
+- - Nama → JTextField namaField
 
-- Jenis Kelamin → JComboBox genderComboBox
+- - Jenis Kelamin → JComboBox genderComboBox
 
-- Angkatan → JComboBox angkatanComboBox
+- - Angkatan → JComboBox angkatanComboBox
 
-b. Alur Input Data
-- Pengguna mengetik NIM dan Nama di text field.
+- Alur Input Data
+- - Pengguna mengetik NIM dan Nama di text field.
 
-- Pengguna memilih Jenis Kelamin dari dropdown (JComboBox).
+- - Pengguna memilih Jenis Kelamin dari dropdown (JComboBox).
 
-- Pengguna memilih Angkatan dari dropdown (JComboBox).
+- - Pengguna memilih Angkatan dari dropdown (JComboBox).
 
-- Setelah semua terisi, pengguna menekan tombol "Add" untuk menambahkan data.
+- - Setelah semua terisi, pengguna menekan tombol "Add" untuk menambahkan data.
 
 2. Tombol "Add" (Menambahkan Data)
 a. Alur Tombol "Add"
