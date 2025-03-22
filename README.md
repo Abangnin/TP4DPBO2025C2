@@ -99,3 +99,13 @@ Setelah data ditambahkan, tabel akan diperbarui menggunakan MahasiswaTableModel.
 ![Image](https://github.com/user-attachments/assets/9b8f4e8d-a653-43b3-ac3e-5187ba99be9e)
 
 ![Image](https://github.com/user-attachments/assets/9ffe6663-5a33-4f32-8211-a62076a12906)
+
+![Image](https://github.com/user-attachments/assets/e9ef9653-6e03-4400-8326-53c004467401)
+
+![Image](https://github.com/user-attachments/assets/f86e0943-0d84-4e3b-a7af-6833703b739b)
+
+![Image](https://github.com/user-attachments/assets/aca7b07e-6e0b-4ea4-b814-e9ff3abee2df)
+
+![image](https://github.com/user-attachments/assets/c1d91292-52c8-4151-b551-3fd3c6b27c0d)
+
+
