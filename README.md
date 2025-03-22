@@ -30,69 +30,68 @@ Saya Muhammad Naufal Arbanin dengan NIM 2310850 mengerjakan soal Tugas Praktikum
 1. Form Input Mahasiswa
 - Di dalam class Menu, terdapat input form yang terdiri dari:
 
-- - NIM → JTextField nimField
+  - NIM → JTextField nimField
 
-- - Nama → JTextField namaField
+  - Nama → JTextField namaField
 
-- - Jenis Kelamin → JComboBox genderComboBox
+  - Jenis Kelamin → JComboBox genderComboBox
 
-- - Angkatan → JComboBox angkatanComboBox
+  - Angkatan → JComboBox angkatanComboBox
 
 - Alur Input Data
-- - Pengguna mengetik NIM dan Nama di text field.
+  - Pengguna mengetik NIM dan Nama di text field.
 
-- - Pengguna memilih Jenis Kelamin dari dropdown (JComboBox).
+  - Pengguna memilih Jenis Kelamin dari dropdown (JComboBox).
 
-- - Pengguna memilih Angkatan dari dropdown (JComboBox).
+  - Pengguna memilih Angkatan dari dropdown (JComboBox).
 
-- - Setelah semua terisi, pengguna menekan tombol "Add" untuk menambahkan data.
+  - Setelah semua terisi, pengguna menekan tombol "Add" untuk menambahkan data.
 
 2. Tombol "Add" (Menambahkan Data)
-a. Alur Tombol "Add"
-- Mengambil data dari form input (NIM, Nama, Jenis Kelamin, Angkatan).
+- Alur Tombol "Add"
+  - Mengambil data dari form input (NIM, Nama, Jenis Kelamin, Angkatan).
 
-- Jika NIM atau Nama kosong, tampilkan peringatan JOptionPane.
+  - Jika NIM atau Nama kosong, tampilkan peringatan JOptionPane.
 
-- Jika semua data sudah diisi, buat objek baru Mahasiswa dan tambahkan ke listMahasiswa.
+  - Jika semua data sudah diisi, buat objek baru Mahasiswa dan tambahkan ke listMahasiswa.
 
-- Panggil setTable() untuk memperbarui tabel.
+  - Panggil setTable() untuk memperbarui tabel.
 
-- Bersihkan form input untuk input selanjutnya.
+  - Bersihkan form input untuk input selanjutnya.
 
 3. Tabel Mahasiswa (Menampilkan Data)
 Setelah data ditambahkan, tabel akan diperbarui menggunakan MahasiswaTableModel.
+- Cara Kerja Tabel
+  - Menggunakan AbstractTableModel untuk menampilkan data mahasiswa dalam tabel.
 
-a. Cara Kerja Tabel
-- Menggunakan AbstractTableModel untuk menampilkan data mahasiswa dalam tabel.
+  - Metode getValueAt() mengambil data dari listMahasiswa berdasarkan indeks.
 
-- Metode getValueAt() mengambil data dari listMahasiswa berdasarkan indeks.
-
-- Tabel akan diperbarui setiap kali tombol "Add" ditekan.
+  - Tabel akan diperbarui setiap kali tombol "Add" ditekan.
 
 4. Tombol "Delete" (Menghapus Satu Data)
-a. Alur Tombol "Delete"
-- Cek apakah ada baris yang dipilih dalam tabel.
+- Alur Tombol "Delete"
+  - Cek apakah ada baris yang dipilih dalam tabel.
 
-- Jika ada, hapus data dari listMahasiswa berdasarkan indeks baris.
+  - Jika ada, hapus data dari listMahasiswa berdasarkan indeks baris.
 
-- Perbarui tabel agar perubahan terlihat.
+  - Perbarui tabel agar perubahan terlihat.
 
-- Jika tidak ada yang dipilih, tampilkan peringatan JOptionPane.
+  - Jika tidak ada yang dipilih, tampilkan peringatan JOptionPane.
 
 5. Tombol "Delete All" (Menghapus Semua Data)
-a. Alur Tombol "Delete All"
-- Cek apakah listMahasiswa kosong atau tidak.
+- Alur Tombol "Delete All"
+  - Cek apakah listMahasiswa kosong atau tidak.
 
-- Jika kosong, tampilkan pesan "Tidak ada data untuk dihapus!".
+  - Jika kosong, tampilkan pesan "Tidak ada data untuk dihapus!".
 
-- Jika ada data, tampilkan JOptionPane konfirmasi ("Yakin hapus semua data?").
+  - Jika ada data, tampilkan JOptionPane konfirmasi ("Yakin hapus semua data?").
 
-- Jika pengguna memilih "YES", kosongkan listMahasiswa dan perbarui tabel.
+  - Jika pengguna memilih "YES", kosongkan listMahasiswa dan perbarui tabel.
 
-- Tampilkan pesan sukses: "Semua data berhasil dihapus!".
+  - Tampilkan pesan sukses: "Semua data berhasil dihapus!".
 
 6. Tombol "Cancel" (Membersihkan Form Input)
-a. Alur Tombol "Cancel"
-- Panggil metode clearForm(), yang mengosongkan semua input field.
+- Alur Tombol "Cancel"
+  - Panggil metode clearForm(), yang mengosongkan semua input field.
 
 ## Dokumentasi
